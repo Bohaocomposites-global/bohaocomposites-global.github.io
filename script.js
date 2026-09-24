@@ -21,6 +21,14 @@
     });
   });
 
+
+  const params = new URLSearchParams(window.location.search);
+  const presetProduct = params.get('product');
+  const productField = document.querySelector('#product');
+  if(presetProduct && productField){
+    productField.value = presetProduct;
+  }
+
   const form = document.querySelector('#quote-form');
   const status = document.querySelector('#form-status');
   if(form){
