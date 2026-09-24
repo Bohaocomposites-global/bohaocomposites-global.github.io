@@ -1,37 +1,31 @@
-# BOHAO COMPOSITES — Free Static Export Website
+# Bohao Composites International Website — V2
 
-This is a ready-to-upload, static B2B export website for Guangdong Bohao Composites Co., Ltd.
+This version uses the official Bohao logo supplied by Guangdong Bohao Composites Co., Ltd. and updates the homepage branding and contact information.
 
-## What is included
-- Responsive English home page
-- Product categories and application solutions
-- Technical center / resource section
-- Company / capability section
-- Request-a-Quote form
-- SEO meta tags
-- Mobile navigation
-- No paid backend or CMS required
+## Files
+- `index.html` — homepage
+- `style.css` — responsive layout and visual design
+- `script.js` — mobile navigation and inquiry email helper
+- `assets/bohao-logo.png` — cropped transparent official logo for the website
+- `assets/bohao-logo-source.png` — original uploaded transparent logo
+- `assets/favicon.png` — small site icon
 
-## Free deployment: GitHub Pages
-1. Create a public GitHub repository named `YOUR-USERNAME.github.io`.
-2. Upload all files and the `assets` folder from this project.
-3. Open **Settings → Pages**.
-4. Select **Deploy from a branch → main → /root → Save**.
-5. Open `https://YOUR-USERNAME.github.io/`.
+## GitHub Pages upload
+Replace/upload the files in the root of the repository:
+- `index.html`
+- `style.css`
+- `script.js`
+- `assets/` folder
 
-## Inquiry form
-The quote form is intentionally backend-free. On submit it prepares an email draft to:
-`bohao1358@frpgd.com`
+Keep `index.html` in the repository root.
 
-For a more professional form later, replace the form with Google Forms, Formspree, or your CRM form.
+## Verified company information used on the homepage
+- Company: Guangdong Bohao Composites Co., Ltd.
+- Positioning: Comprehensive Solution Provider in Composites Industry
+- Founded: 2004
+- Location: Guangdong, China
+- Email: bohao1358@frpgd.com
+- Official website: https://www.frpgd.com
+- Alibaba International: https://gdfrp.en.alibaba.com
 
-## First things to replace
-- Product image blocks with real factory/product photos
-- Add exact model/specification pages (e.g. EMC300-1040-P02, EWR400E-1000)
-- Add TDS/SDS download files
-- Add the official company phone / WhatsApp number
-- Add real project case studies
-- Add Google Analytics 4 and Google Search Console
-
-## Important
-This site intentionally avoids invented certifications, capacity figures, product performance claims and customer references. Add only facts that Bohao can verify.
+No phone number or WhatsApp number was added because a current official number was not provided.
